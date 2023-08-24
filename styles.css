@@ -1,0 +1,29 @@
+h1, h2{font-family: 'Barriecito', cursive;}
+
+.sweet_treats {
+    margin: 15px;
+    text-align: center;
+}
+#cupcakes {
+    background-color:#FFD0D0;
+    border: 10px solid #C1ECE4;
+}
+
+#ice_cream {
+    background: #C1ECE4;
+    border: 10px solid #FFD0D0;
+}
+
+#cookies {
+    background-color:#FFD0D0;
+    border: 10px solid #C1ECE4;
+}
+
+fieldset { 
+    background-color:#FFD0D0;
+    border: 10px solid #C1ECE4;
+}
+
+legend {
+    background-color: #C1ECE4;
+}

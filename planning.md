@@ -51,10 +51,11 @@ Main Content
 
 Design Choices
 
-- Fonts:
-  - Text: Arial, sans-serif
-  - Headers: Pacifico, cursive
-- Colors:
-  - Background: #f0f0f0
-  - Text: #333333
-  - Headers: #ff6600
+ Fonts:
+   Text: Arial, sans-serif
+   Headers: Pacifico, cursive
+ Colors Pallet:
+   #3AA6B9 --teal ish
+   #FFD0D0 --light pink
+   #FF9EAA --bright pink
+   #C1ECE4 --sky blue ish
