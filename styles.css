@@ -1,29 +1,53 @@
-h1, h2{font-family: 'Barriecito', cursive;}
+nav {
+    position:fixed;
+    background: #C1ECE4;
+    width: 100%;
+    border-radius: 20px;
+}
+li{
+    display: inline;
+    border:5px solid #3AA6B9;
+    background-color: #FFD0D0;
+    border-radius: 5px;
+    padding: 2px 15px;
+    
+}
+h1, h2{
+    font-family: 'Barriecito', cursive;
+    text-align: center;
+}
 
 .sweet_treats {
     margin: 15px;
     text-align: center;
 }
-#cupcakes {
+#cupcakes, #cookies {
     background-color:#FFD0D0;
     border: 10px solid #C1ECE4;
+    border-radius: 15px;
 }
 
 #ice_cream {
     background: #C1ECE4;
     border: 10px solid #FFD0D0;
-}
-
-#cookies {
-    background-color:#FFD0D0;
-    border: 10px solid #C1ECE4;
+    border-radius: 15px;
 }
 
 fieldset { 
     background-color:#FFD0D0;
     border: 10px solid #C1ECE4;
+    border-radius: 15px;
+}
+
+#vinilla_cupcakes {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    border: 10px solid #FFD0D0;
+    border-radius: 15px;
 }
 
 legend {
     background-color: #C1ECE4;
+    border-radius: 15px;
 }
