@@ -3,27 +3,27 @@
     color: #3AA6B9;
 }
 
-
 nav {
     position:fixed;
     background: #C1ECE4;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 15px;
 }
-ul{
+ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 8px;
     grid-auto-rows: 55px;
     text-align: center;
 }
+
 li{
     list-style: none;
     border:5px solid #3AA6B9;
     background-color: #FFD0D0;
     border-radius: 5px;
-    
 }
+
 #recipies li{
     border-color: #C1ECE4;
     grid-column: span 2;
@@ -74,30 +74,43 @@ legend {
     border-radius: 15px;
 }
 
+#image_page{
+    display: flex;
+    justify-content: center; 
+    min-height: 100vh; 
+}
 #cupcake_images{
     width: 800px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 }
+#cupcake_h1 {
+    grid-column: span 3;
+}
 
 .imgs {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    min-width: 200px;
 }
+
 hr {
     clear: both;
 }
 
 
-@media(max-width:400px) {
+@media(max-width:500px) {
     li{
         font-size: small;
     }
     #cupcake_images{
-        width: 100px;
+        width: 200px;
         display: grid;
         grid-template-columns: 1fr;
+    }
+    #cupcake_h1 {
+        grid-column: span 1;
     }
 
 }
